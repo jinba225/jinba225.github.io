@@ -1,0 +1,72 @@
+baseURL = 'https://jinba225.github.io/'
+languageCode = 'zh-cn'
+title = '工业电子元器件与自动化解决方案'
+theme = 'hugo-bootstrap'
+
+# 启用中文支持
+hasCJKLanguage = true
+defaultContentLanguage = 'zh-cn'
+
+# 菜单配置
+[menu]
+  [[menu.main]]
+    identifier = "products"
+    name = "产品"
+    url = "/products/"
+    weight = 10
+  [[menu.main]]
+    identifier = "solutions"
+    name = "解决方案"
+    url = "/solutions/"
+    weight = 20
+  [[menu.main]]
+    identifier = "services"
+    name = "服务与支持"
+    url = "/services/"
+    weight = 30
+  [[menu.main]]
+    identifier = "resources"
+    name = "资源中心"
+    url = "/resources/"
+    weight = 40
+  [[menu.main]]
+    identifier = "about"
+    name = "关于我们"
+    url = "/about/"
+    weight = 50
+  [[menu.main]]
+    identifier = "contact"
+    name = "联系我们"
+    url = "/contact/"
+    weight = 60
+
+# 参数配置
+[params]
+  # 网站描述
+  description = "提供高品质工业电子元器件与自动化解决方案"
+  # 主题颜色
+  [params.theme]
+    # 主色调
+    primary = "#0066cc"
+  # 页脚配置
+  [params.footer]
+    # 版权信息
+    copyright = "© 2025 工业电子元器件与自动化解决方案. 保留所有权利."
+  # 首页配置
+  [params.home]
+    # 启用特色图片
+    featuredImage = true
+  # 社交媒体链接
+  [params.social]
+    [params.social.linkedin]
+      url = "https://linkedin.com/"
+      icon = "fab fa-linkedin"
+    [params.social.twitter]
+      url = "https://twitter.com/"
+      icon = "fab fa-twitter"
+    [params.social.facebook]
+      url = "https://facebook.com/"
+      icon = "fab fa-facebook"
+    [params.social.youtube]
+      url = "https://youtube.com/"
+      icon = "fab fa-youtube"
